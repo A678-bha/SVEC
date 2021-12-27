@@ -39,3 +39,4 @@
 - git status
 - do git configurations(set user.name and usetr.email)
 -commit data with commit message
+### stop
