@@ -38,5 +38,5 @@
 - git add . or git add --all
 - git status
 - do git configurations(set user.name and usetr.email)
--commit data with commit message
-### stop
+- commit data with commit message
+- push the code into the github
