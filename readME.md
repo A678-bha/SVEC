@@ -76,7 +76,7 @@
 ### reference links
 - [flaticon](https://www.flaticon.com/)
 - [colorcodes](https://webaim.org/resources/contrastchecker/)
-
+- [svgicon]
 Task :
 ======
 - audio
@@ -127,5 +127,29 @@ Task :
   + width
   1rem:16px
 
+
++ display
+     - none
+	 - inline
+	 - block
+	 - inline-block
++ position
+    - static
+	- relative
+	- absolute
+	- fixed
+	- sticky
++ align-content
++ align-items
++ align-self
+### Responsive web design
+### Flex-box
+   
+- Dispaly
+    - flex
+	   - flex-wrap
+	   - justify-content
+	   - flex-direction
+	   - flex-flow
 
 
