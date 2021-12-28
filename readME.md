@@ -126,8 +126,6 @@ Task :
 	- padding:10px 30px 4px 50px(top,right,bottom,left)
   + width
   1rem:16px
-
-
 + display
      - none
 	 - inline
