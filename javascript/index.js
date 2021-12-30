@@ -24,7 +24,7 @@
 // console.log(employee);
 
 //array
- //let employees=["chekri,manju"]
+ let employees=["chekri,manju"]
  // console.log(employees[1])
  
  //alerts
@@ -44,15 +44,15 @@
 
 // spread operator
 
-let external_marks=[32,74,83,09,67,57]
-let internal_marks=[21,34,45,67,66] 
+// let external_marks=[32,74,83,09,67,57]
+// let internal_marks=[21,34,45,67,66] 
 
 
-let results=[54,87,99,external_marks]
-let final=[23,45,44,...external_marks,...internal_marks]
-console.log(results)
-console.log(final)
-// Rest Parameter
+// let results=[54,87,99,external_marks]
+// let final=[23,45,44,...external_marks,...internal_marks]
+// console.log(results)
+// console.log(final)
+// // Rest Parameter
 
 // function addition(x,y,...remainData){
 
@@ -86,4 +86,58 @@ console.log(final)
 //     console.log(uname);
 //     console.log(designation);
 //     console.log(remainList)
-    
+
+
+// // Functions
+// // Anonymous function
+// let demo=function(x,y){
+//     return x+y
+// }
+// function(x,y){
+
+// y})()
+// setTimeout(function(){
+//     console.log("welcome")
+// },3000)
+
+// //console.log(demo(3,4))
+
+
+
+// Arrow function
+
+// (function(x=4,y=6){
+//     return console.log(x+y)
+// }) ()
+
+// let demo=(x,y)=>{
+//     return x*y
+// } 
+// console.log(demo(3,4))
+
+
+// let employees=["sri","pavan","ram"]
+// for(let i=0;i<employees.length;i++){
+//     console.log(employees[i])
+
+// }
+
+// // for-of
+// for(let i of employees){
+//     console.log(i)
+// }
+
+
+
+// let result=employees.map(function(element){
+//      console.log(element+"ok")
+     
+//  })
+
+// map function
+
+// let result=employees.map((element,index)=>{
+//     return element+"k"+index
+// })
+// // console.log(employees)
+// console.log(result)

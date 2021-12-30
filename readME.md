@@ -275,3 +275,91 @@ and we can se in clinet-side and server side
   - Redefine  --> var,let
   - Redclare --> 	
 
++ `typeof()`
++ object
+
+```
+{
+	name:"kalyan"
+}
+```
+
++ array
+
+### Alert
+
++ to generate notifications
+	- alert
+	- prompt(to take input from the user)
+	- confirm
+
++ console statements
+	- `console.log()`
+	- `console.info()`
+	- `console.error()`
+	- `console.warn()`
+
++ Spread Operator
+	- To change array elements from one array to another(swap)
+
+```
+     ...variableName
+
+```
++ rest parameter
+	+ to handle function parameters
+
+	```
+	 	...Parameter
+	```	 
++ Destructuring of Array & object
+
++ Functions
+
+	- function with function name
+	```
+	function demo(x,y){
+		return x+y
+	}
+      demo()
+	  ```
+	  - Anonymous function
+	  ```
+	  let demo=function(x,y){
+		  return x+y
+	  }
+	  ```
+	  - arrow function
+	  ```
+	  let demo=(x,y)=>{
+		  return x*y
+	  } 
+	  demo(3,4)
+	  ```
+
++ for-in
+	- to get index values of an array
++ for-of
+	- to get elements in an array
++ forEach() --> (ES-5)
++ Map -->(ES-6)
+
+### DOM
+ - Document object model
+ - document
+ - history
+ - window
+ - navigatior
++ DOM methods
+- `getElementById()`
+- `getElementsByClassName()`
+- `querySelector`
+- `innerText`
+- `textContent`
+- `append`
+- `appendChlid`
+- `innerHTML`
+- `setAttribute`
+- `classList`
+- `style`
+- `src`

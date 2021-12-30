@@ -10,6 +10,16 @@
        </script>
 </head>
 <body>
+
+    <div class="main">
+        <div class="child">
+            <h2 id="demo">Heading
+                <span>Text</span>
+                <a href="">link</a>
+            </h1>
+        </div>
+
+    </div>
     <script>
     // //    console.log("welcome")
     // function demo(){
@@ -32,13 +42,21 @@
     // var age=27;
     // console.log(typeof(age))
 //   Hosting
-    console.log(age);
-    var age=23;
+    // console.log(age);
+    // var age=23;
       
-    var age=null;
-    console.log(age);
+    // var age=null;
+    // console.log(age);
+    var main=document.querySelector(".main");
+    var child=document.querySelector(".child")
 
 
+        var heading=document.createElement('h1');
+        heading.textContent="welcome";
+        child.appendChild(heading);
+        main.appendChild(child);
+        var Content=document.getElementById("demo").innerHTML;
+        console.log(content)
     </script>
 </body>
 </html>
