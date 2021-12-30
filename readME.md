@@ -140,6 +140,8 @@ Task :
 + align-content
 + align-items
 + align-self
+
+### Animations
 ### Responsive web design
 ### Flex-box
    
@@ -149,5 +151,127 @@ Task :
 	   - justify-content
 	   - flex-direction
 	   - flex-flow
+### media quries
 
+ - extra small devices(mobiles)
+       - max-width:600px
+ - small devices(large phones)
+       - min_width:600px
+	   -   768
+ - medium devices(small laptops)
+       - min-width:768px
+ - large devices(large laptos and desktops)
+	- min-width:992px
+ - extra large devices()
+	- min-width:1200px
+
+
+
+ ```
+
+ @media only screen(min-width:320px) and (max-width:500px){
+	 css code
+ }
+ ```
+ ### Bootstrap4.6
+
+- it is a css framework
+
+Task3:
+======
+
+     - navbar with responsive
+
+- module(collections of functions and classes )
+- package(collection of modules)
+- library(collection of packages)
+- framework(collection of library)
++ module --> package  --> Library --> Framework
+
+
++ types of modes
+   - offline
+   - online
+      - CDN links
+
++ background-color - bg
++ text-white
+
++ margin in bootstarp(m-*(0-5))
+     - 0 -->0rem
+	 - 1 -->0.25rem (4px)
+	 - 2 -->0.5rem(8px)
+	 - 3 -->1rem(16px)
+	 - 4 -->1.5rem(24px)
+	 - 5 -->3rem(48px)
+	 - ml-8(margin-left)
+	 - m(margin in all directions)
+	 - mt(margin-top)
+	 - ml-5(margin-left)
+	 - mb(margin-bottom)
+	 - mr(margin-right)
++ padding(padding-left --> pl-5)	 
++ ml-
++ m
++ mt
+
+
++ colors
+  - primary
+  - secondary
+  - info
+  - sucess
+  - warning
+  - danger
+  - light
+  - dark
+  - white
+
+
++ we can use color classes for
+    - buttons(btn btn-primary)
+	- text(text-white)
+	- background(bg-secondary)
+	- alerts(alert alert-primary)
++ Grid system
+	-  col-sm-12
+    - sm(small devices)
+	- md(medium devices)
+	- lg(large devices)
+	- xl(extra large devices)
++ modals
++ table
+
+
+### javaScript
+
+
++ In 1995 `brenden eich` introduced javascript(ES-262)
++ it is a text-based programming language 
+and we can se in clinet-side and server side
+ (Node.js) for dynamic web appplication
++ JavaScript loosely toupled and dynamic language
+- ECMA-script(ES-6)
+	- Let & const
+	- map()
+	- arrow function
+	- classes
+
++ Datatypes
+	- Number
+	- BigInt(2^53-1)
+	- String
+	- Boolean
+	- undefine
+	- Null
+	- object
+	- Array
+
++ variables 
+  - var , let & const
+  - scope
+	- function level -->var
+	- block level --> let & const
+  - Redefine  --> var,let
+  - Redclare --> 	
 
