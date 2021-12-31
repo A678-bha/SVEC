@@ -77,6 +77,8 @@
 - [flaticon](https://www.flaticon.com/)
 - [colorcodes](https://webaim.org/resources/contrastchecker/)
 - [svgicon]
+- [jsonlink](https://jsonlint.com/)()
+- [jsonlink](https://jsonlint.com/)()
 Task :
 ======
 - audio
@@ -363,3 +365,119 @@ and we can se in clinet-side and server side
 - `classList`
 - `style`
 - `src`
+
+
+### JSON 
++ javaScript object Notation
+   - To exchange information between application and server
+```
+{
+	"name":"ram",
+	"salary":"6.5LPA",
+	"designation":"MERN developer",
+	"mobile":3453532656
+} 	
+```
+
++ Ajax call or promises(fetch API) or axios 
+
+
+### Reactjs
+
+
+##### ReactJS Features
+
++ It is a Library
++ It follows component based Architecture
+	- Functional Component
+	- Class Component
+	- Pure Component
+	- Higher Order Component
++ It provides Virtual DOM
++ It provides JSX(JavaScript and XML)
++ Unidirectional data flow 
++ Single Page Applications
+
++ Props
+
+	- To pass data from one component to another component we will use props 
+	- Props are immutabe
+
+
+	+ UnionBank(Functional)
+	   - AndhraBank(Functional)
+	   - corporationBank(Class)
+
+	+ States 
+
+	- In react to maintain information we will use states
+	- We can maintain states in class component only(Before react16.8 version)
+	- To take states in react ,Try to create constructor above 
+	  render method and inside of class component
+	- use `rconst` snippet
+	```
+	constructor(){
+		super();
+		this.states={
+
+		}
+	}   
+	``` 
+	- To update the state information in class component use
+	`setSate()` method
+
+	+ To update the information inclass component we have to follow component life cycle methods
+	 `setState()` method
+	 + To update the information inclass component we 
+	 have to follow component life cycle methods
+     - `componentWillMount()`
+	 + `componentDidMount()`
+	 - `componentShouldUpdate()`
+	 + `componentWillUpdate()`
+	 - `componentDidUpdate()`
+	 + `componentwillUnMount()`
+
+
+
+	### Hooks
+
+	+ from react 16.8 Hooks are introduced 
+	- Parent - child1 --> child2 -->child3
+	- `useState()`
+	- `useEffect()`
+	- `useMemo()`
+	- `useRef()`
+	- `use
++ Project Enviornment setup
+
+	-[Downloadnidejs](https://nodejs.org/en/download/)
+	- [DownloadVisualStudioCode](https://code.visualstudio.com/)
+   - install nodejs and check versions of `node` and `nmp`
+   - `node -v`
+   - `node -v`
+ - `webpack` and `babel` 
+ - `create-react-app`
+	- `npm install create-react-app`
+		- `create-react-app projectname`
+ - `npx create-react-app-appname`
+
+ + Index.html
+ + Index.js
+ + App.js
+
+   + IndexPage
+
+	 - nav.js
+	 - body.js
+	 - footer.js
+
++ Home.js
+	- nav
+	- body
+	- footer
++ Login.js
++ Register
++ About
++ Contact
+   
+
